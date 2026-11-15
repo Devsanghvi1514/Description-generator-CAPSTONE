@@ -1,0 +1,14 @@
+fastapi==0.115.8
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pillow==11.1.0
+aiofiles==24.1.0
+pymongo==4.10.1
+python-dotenv==1.0.1
+transformers==4.49.0
+torch
+datasets==3.6.0
+accelerate
+timm
+einops
+torchvision

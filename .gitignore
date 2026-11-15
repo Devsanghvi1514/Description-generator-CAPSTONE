@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Storage & Uploads
+backend/app/static/uploads/*
+!backend/app/static/uploads/.gitkeep
+
+# Machine Learning Checkpoints & Weights
+models/
+*.pt
+*.bin
+*.onnx
+
+# System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.ipynb_checkpoints/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment Variables & Secrets
+.env
+*.env
+*.env.local
+backend/.env
+frontend/.env
